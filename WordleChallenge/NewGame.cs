@@ -14,6 +14,7 @@ namespace WordleChallenge
 			GuessedWords = new GuessedWord[6];
 		}
 
+		
 		public State Guess(string guessedWord)
 		{
 			attemps++;
