@@ -2,7 +2,9 @@
 
 using WordleChallenge;
 
-Console.WriteLine("Hello, World!");
 
-var gameFlowProcess = new GameFlowProcess(WordleChallenge.ListOfWords.list);
+var list = AddNewWord.CaptureWord();
+
+
+var gameFlowProcess = new GameFlowProcess(list);
 gameFlowProcess.Menu();
